@@ -18,7 +18,7 @@ html {
 
 }
 .redlight {
-  background: red;
+  background-color: red;
 }
 .yellowlight {
 
@@ -26,6 +26,13 @@ html {
 .greenlight {
 
 }
-.trafficlightstand {
-  
+.trafficlightpost {
+  background: #222;
+  background-image: linear-gradient(transparent 2%, #111 2%, transparent 3%, #111111 30%);
+  width: 500px;
+  height: 75px;
+  border-radius: 30px;
+  position: relative;
+  float: left;
+  border: solid 5px #333333;
 }
